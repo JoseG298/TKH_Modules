@@ -1,0 +1,30 @@
+﻿Jose Gonzalez                
+
+
+Module 4: What is Docker
+
+
+
+
+At its core what is a computer really doing whenever you type a letter on a keyboard?
+
+
+A keyboard is made up of generally three important pieces, the motherboard, keys you press and a small computer chip. The motherboard is home to roughly 101 open circuits depending on what kind of keyboard you have but they are located under each key, when power is applied to the keyboard there is roughly less than 5v of power that tries to pass through the keyboard through a series of connections. The keys are rather fairly simple in most keyboards and are comprised of 3 components, the outer cap which shows a person the character that the specific key represents, the middle component usually a spring mechanism that allows you to compress the key and decompresses the key, and lastly a bit of carbon that when the key is pressed closes a circuit on the motherboard allowing the electricity inside to flow. The small computer chip is usually located under the motherboard of the keyboard and its job is to scan the keyboard for any voltage changes, when you press a key and close a circuit on the motherboard through a series of scans it is able to determine which specific circuit of the motherboard is pressed. After a key has been determined as pressed the small computer chip translates the closed circuit to the associated character and sends a signal to your computer telling it what key has been pressed, your computer then processes the information and tells the software what character to display on your screen.
+
+
+What are the uses of Docker
+
+
+When creating a program there’s often an issue where during development sharing programs with others might be difficult, the software might work on your system but when shared there might be some issues on another system making it difficult for people with different computer systems to work together on one project. Docker allows users to develop software in an environment that allows for users to package their software in Docker containers and share with others. Docker is also used for running non-native software because it runs almost like a virtual machine for your software allowing you to open up software on any os system you may be using without issue, but unlike virtual machines Docker doesn’t require a user to download a new os system or allocate memory and hard drive space but still allows you to open software in neat easy to use containerized environments making Docker extremely portable which makes development between users less stressful. When developing software Docker also assists in testing software locally on your machine, on the cloud or even both, and it allows the Docker files to be much smaller allowing you to save space on your hardware therefore allowing you to scale up development if need be.
+
+
+Why is Docker recommended?
+
+
+Virtual machines are an older concept allowing users to have multiple OS systems on their machines allowing users to run multiple applications in different operating systems at the same time or switch between when need be. Virtual machines work by dedicating a large portion of your hardware resources to the virtual machine for smooth and easy use of the second os. Docker is recommended because unlike the virtual machine the Docker containers don’t require the user to download a new OS to have it run their software making the allocation of the large portion of your hardware space unnecessary therefore decreasing its overall footprint in running on your system and decreasing the storage space required by your system which allowed for multiple Docker containers to be used at once with ease. When booting up a virtual machine it starts off like any computer taking its time to boot up and load up the user’s information, but a Docker container doesn’t require a lengthy bootup time allowing it to run faster and allows developers to save time. When developing a software integration of tools is very important and the tools used by virtual machines lack functionality because of its limited tools unlike Docker which allows for several instances therefore allowing it to be more functional for developers.
+
+
+What are the main features of Docker?
+
+
+Docker allows developers to develop software in virtual machine-esque formats called Docker containers which allows software to be developed with minimal traces of the original operating system which allows for fluidity and portability between users and operating systems while also reducing the overall size of the application and its assets in which it reduces the cost in your system. The Docker architecture is made of components that include but not limited to, the Docker client which provides a user with an interface to activate Docker commands, Docker host which runs the Docker daemon, and the Docker registry which is a storage location for your Docker images. What allows Docker to run the containers with minimal effort on your machine is the Docker daemon located in the Docker host which is the power lifter of the operation which allows the execution of containers and images stored in the registry. Because of the systems that makes up Docker it allows the Docker software to significantly reduce the usage of your computer’s resources when compared to a virtual machine which in turn allows for the resources to be better allocated towards more important tasks and even allows for the development of multiple Docker containers on a single system at the same time which makes it very attractive for software development.
