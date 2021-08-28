@@ -1,0 +1,47 @@
+﻿Jose Gonzalez
+
+
+Module 2
+Operating systems
+
+
+
+
+What is an operating system?
+
+
+        In the early days computers were more complicated and more labor intensive than the computers we use today and that’s because they lacked one simple system most today take for granted, the operating system. The first computers were much bigger than the ones we use today but didn’t have the processing power of modern computers, so they could only run a single program at a time and when they want to load one up instead of clicking on a icon they had to take stacks of punch cards where the program was physically written on and feed it to a computer, allow the computer time to read and load up the program, and they would have to repeat this process every time they wanted to load a program. Pheripherials were also a problem because not every machine is built the same so coders had to write code to specifically write code for as many peripherals as possible without having physical access to them which often lead to problems when sharing programs.
+        In simple terms an operating system is software that manages your computer to make the experience between user and machine as simple as possible. Today's operating systems  handle much more than simply loading programs, they use memory management which is used by the cpu as fast temporary storage to allow a user to switch from program to program, device management which works with device drivers to ensure any peripheral you may be using is working correctly, file management which allocates and de-allocates your files on your hardware and also allows a computer to organize your personal files in directories which allows the user to locate their files with ease. Systems like these allow software and peripherals to work across various computers even if they have different hardware.
+
+
+opening systems.
+
+
+        As technology advanced there were different iterations of operating systems to fit the need of the time. One of the earliest operating systems used was the Batch OS, instead of loading up programs by hand computers were given batches of programs, often programs with similar needs were grouped together and ran as a group to speed up the process but ad CPUs became faster mechanical I/O devices were having trouble keeping up so often the cpu would sit idle for periods of time while waiting for the next program.
+        Through CPU scheduling and multiprogramming the Time-Sharing OS was created which allowed multiple users to share a single computer’s resources through multiple terminals, multiprogramming allows multiple programs to run at the same time and CPU scheduling allows the computer to switch between programs quickly and frequently . This OS had the advantage of decreasing the CPU downtim and decreasing the response time of the computer, but at the cost of reliability and data communication.
+        Distributed operating systems allowed multiple real-time applications and multiple users to share multiple processors possibly of different sizes and functions, communicating together through multiple communication lines and shared between users based on their needs, the processors were often referred to as sites, nodes and computers.. The advantages of a system like this is if a processor fails then the others are able to continue operations, provide better service to users, reduce load on host computers and delays in data processing, and allow users to switch between sites based on the resources needed/available. 
+
+
+OS Subsystem  
+
+
+        The OS Subsystem is made up of many singular systems that are managed by the operating system, the main systems are process management, memory management, device management, input/output or I/O, device management, and file management.
+        Process management allows the allocation and de-allocation of the CPU processing power between active programs to allow the current active program to run without a problem but still allows for other programs to run in the background with minimal conflicts.
+        Device management allows your computer to work with many different peripherals by communicating with their respective drivers. This system allows tracking of devices connected to your computer and allocates and de-allocates the devices to the respective process that requires them.
+         File management allows the organization of the files currently in your computer into directories which helps keep track of important files but also allows users to effortlessly look through the files and locate any files that's needed.The system also helps to allocate and de-allocate the hard memory space in your computer.
+        input/output allows for the communication between the cpu to transmit data that is coming from or going to other devices like a keyboard, mouse or printer. Since the efficiency of the I/O system allows better performance and reliability of a computer system the management of this system inhabits a large portion of the code that makes up the operating system. To organize the different i/o a system uses each device has a device controller which interacts with device drivers to apply a uniform interaction between the operating system and the devices.
+
+
+Portability
+
+
+        On early computers software was written to run on the specific systems that were used at the time which eventually posed some issues down the line as people started to use different machines, people often found themselves having to alter or rewrite code to have it work with their machines which made a lot of software not portable. Portability is when software is able to communicate with different devices or operating systems with minimal to no effort outside of the original operating system it was initially created for. Some of the advantages to having portable software are more cost savings with less errors when having to use multiple different platforms and faster activation between different platforms because less time is used to try and make the software work when using a new device.
+        When a software isn’t portable it creates difficulties when using different platforms so if a programmer wants to use thor program on other devices with minimal effort they have to change the code in the software to try and make it more compatible with other platforms, this process is called porting 
+
+
+Network Topology
+
+
+        Network topologies are different methods used to connect devices like computers to each other either through wires or wirelessly to allow these devices to effortlessly communicate and send data to each other. There are only a handful of different network topologies, each with their own advantages and disadvantages. The different topologies that we will be focusing on are the daisy chain and star topologies.
+        Daisy chain topology is a very simple topology but rarely used anymore, it’s made up of computers connected one after the other in a linear fashion without any interconnecting, this usually comes in two forms: linear or ring. In its linear form every computer except the computers on each end of the line have two neighbors and if the computer on one end wants to send data to the computer on the other end that data has to travel down the line from computer to computer till it reaches its destination, and in same fashion if the receiving computer wants to send data back it has to send data back up the line till it reaches its destination. A ring configuration is similar to the line configuration except that there are no ends, all the computers are connected in a closed loop so instead of sending data back and forth a line the data can just loop around to find its destination. A disadvantage of daisy chaining is if there is a disconnect anywhere in the line all data flow is interrupted.
+        The star topology is a more commonly used topology because instead of having the computers connected to each other like daisy chaining, the star topology has all computers connected to a single hub/switch. In this topology when sending data from one computer to another data is sent to the hub/switch where it is then sent directly to the destination computer. An advantage to this topology is if there’s a disconnect with any of the computers there’s no interruption of data flow, the disadvantage to this is if the hub/switch were to fail it would create a single point of failure that would disrupt the entire network.
