@@ -1,0 +1,8 @@
+﻿Jose Gonzalez
+
+
+
+
+A). Git is the software used for programmers to work on their code to develop various projects. Github in simple terms is just a hub for your code to be shared and worked on publicly with others through git. There are various different hubs to share code but github by far is the most popular and well known.
+ B) There are two main tools to develop your code, gui tools and the terminal. The terminal is more commonly used because gui tools have software limitations and sometimes it may not even be available to use in some setups. Meanwhile the terminal is faster and easier to work with, its always available and you can do all your work on a terminal. Only using gui tools instead of terminals can lead to some limitations in your work.
+C) The three main benefits of version control are, it helps keep track of your code overtime making it easy to backtrack if need be, it gives your code a central place to be utilized by multiple users which gives them the ability to check each other's work as they work on a project, and if while working on code if users find an issue it allows them to roll back the software to a previous functional state.
