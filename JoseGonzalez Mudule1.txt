@@ -1,0 +1,53 @@
+﻿Jose Gonzalez
+
+
+
+
+Module 1: Networks
+Reading and Reflections
+
+
+
+
+What a computer does when typing a letter
+
+
+A keyboard is made up of generally three important pieces, the motherboard, keys you press and a small computer chip. The motherboard is home to roughly 101 open circuits depending on what kind of keyboard you have but they are located under each key, when power is applied to the keyboard there is roughly less than 5v of power that tries to pass through the keyboard through a series of connections. The keys are rather fairly simple in most keyboards and are comprised of 3 components, the outer cap which shows a person the character that the specific key represents, the middle component usually a spring mechanism that allows you to compress the key and decompresses the key, and lastly a bit of carbon that when the key is pressed closes a circuit on the motherboard allowing the electricity inside to flow. The small computer chip is usually located under the motherboard of the keyboard and its job is to scan the keyboard for any voltage changes, when you press a key and close a circuit on the motherboard through a series of scans it is able to determine which specific circuit of the motherboard is pressed. After a key has been determined as pressed the small computer chip translates the closed circuit to the associated character and sends a signal to your computer telling it what key has been pressed, your computer then processes the information and tells the software what character to display on your screen.
+
+
+What is a Packet Data
+
+
+In today’s modern internet network millions of people are constantly surfing the web, websites are constantly accessed by thousands of people at a time and the internet itself has access to over 10 zettabytes of data and through the use of data packets we are able to access everything easily and without issues.
+        The internet is built  like a very intricate highway system with millions of different paths to get from device to device so when a person is trying to access a file your computer has to request the data from the host server, when the host server receives the request it’s impossible to sent all the data at once, the files would be too large to send so a system was created, instead of sending a file all at once the file would be broken down into thousands of small packets of data each with the destination and with instructions of how to be put back together, these packets of data are sent through the many highways of the internet taking unique paths based on which way has less data traffic all to arrive to your computer. 
+        What if packet data arrives out of order or what if there’s some missing? When the packet datas arrive to your computer there’s a protocol named TCP that checks the incoming packets and makes a checklist for all the packets, if they’re all there it lets the host server know everything is fine, if any are missing TCP sends information to the host with a list of the missing packets in which the host will resend them until all your packets arrive safely to your device. Since the packet data contains the blueprint of the original file it doesn’t matter what order the packets come in, they are still able to be put together in the correct order to create the original file.
+
+
+Data Rate, Throughput and Bandwidth
+
+
+        On a DSL or cable modem there are 3 different systems happening at the same time: the Data Rate , Throughput And Bandwidth. Each one refers to a system that determines the total upload and download rates of your device.
+        The Data Rate refers to how fast uploaded or downloaded per second, the units of measurement are bytes per second. When uploading and downloading data bandwidth is the term used to determine the maximum capacity of data that can be sent at once, usually determined by the hardware of your network. Bandwidth can also refer to the frequencies used to transmit a signal which is measured in hertz. Throughput is the amount of data actually being sent in a realistic situation, it's also measured in bits per second.
+        A real like representation for better understanding would be a bridge, if the bridge has 2 lanes it only allows 2 cars to pass side by side and that would be the bandwidth. If the bridge’s speed limit is 40mph that would be the Data Rate. travel 40mph and in tight packs to transport as many as possible as quickly as possible over the bridge, but in practice there’s much less cars going over the bridge, that would be the throughput.
+
+
+Datagram Forwarding
+ 
+        When sending data over the internet, packets of data hold the ip address of the sender and the host so it can get to its destination, but when it's sent out how does your network router know where to send the information?  And what is a datagram?.
+        A datagram allows connectionless communication over a network that uses Packet Data as its main form of sending information, on this kind of network order, arrival and arrival time are not guaranteed.  When sending data packets over the internet each router has something called a Datagram forwarding table which has different ranges of ip addresses and a corresponding path for each one. The router checks the destination ip address of the host from the data packet and compares it to the datagram forwarding table to try and figure out what path the packet should take and whichever path the ip address fits in the packet is then sent through that path and it will continue this router to router until it finds its destination. 
+
+
+Algorithm
+
+
+        Algorithms are everywhere, whether you’re trying to wash your clothes, to google maps trying to figure out the best route to your house. In its basic definition an algorithm is basically a set of steps to complete a task.
+Much like computers your daily life is much like an algorithm, steps to complete a task, an example would be putting away your clothes after washing them, the steps would be something like, pick up a piece of clothing, if it’s underwear put it in the first drawer, if not check if its a pair of pants, if yes then put them in the third drawer, if no then everything else is put in the second drawer. An algorithm like is simple but very useful in your daily life and most people do it without even realize they are using an algorithm
+Unlike people, computers are much better at using algorithms so they are able to use much more complex algorithms like machine learning algorithms. It is almost impossible to write an algorithm to recognize complex thing outside of its code like the different types of lizards, so if we want to make a computer sort out all the different types of lizards we created machine learning algorithms in which through giving thousands of examples of different types of lizards the computer is able to learn and create its own algorithms to better identify the traits of a lizard and what eats types makes them unique.
+
+
+Network Topology
+
+
+        Network topologies are different methods used to connect devices like computers to each other either through wires or wirelessly to allow these devices to effortlessly communicate and send data to each other. There are only a handful of different network topologies, each with their own advantages and disadvantages. The different topologies that we will be focusing on are the daisy chain and star topologies.
+        Daisy chain topology is a very simple topology but rarely used anymore, it’s made up of computers connected one after the other in a linear fashion without any interconnecting, this usually comes in two forms: linear or ring. In its linear form every computer except the computers on each end of the line have two neighbors and if the computer on one end wants to send data to the computer on the other end that data has to travel down the line from computer to computer till it reaches its destination, and in same fashion if the receiving computer wants to send data back it has to send data back up the line till it reaches its destination. A ring configuration is similar to the line configuration except that there are no ends, all the computers are connected in a closed loop so instead of sending data back and forth a line the data can just loop around to find its destination. A disadvantage of daisy chaining is if there is a disconnect anywhere in the line all data flow is interrupted.
+        The star topology is a more commonly used topology because instead of having the computers connected to each other like daisy chaining, the star topology has all computers connected to a single hub/switch. In this topology when sending data from one computer to another data is sent to the hub/switch where it is then sent directly to the destination computer. An advantage to this topology is if there’s a disconnect with any of the computers there’s no interruption of data flow, the disadvantage to this is if the hub/switch were to fail it would create a single point of failure that would disrupt the entire network.
